@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Emergency</string>
+    <string name="plane">plane</string>
+    <string name="background">Background</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forget_password"><u>Forget Password?</u></string>
+    <string name="or">- or -</string>
+    <string name="email">Email</string>
+    <string name="retype">Retype password</string>
+    <string name="problem">Problem</string>
+    <string name="voice">Voice</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="tab_text_1">Sections</string>
+    <string name="tab_text_2">Voice warning</string>
+    <string name="tab_text_3">KaratMessage</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="search">Search</string>
+    <string name="categories">Categories</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

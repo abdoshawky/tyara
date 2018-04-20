@@ -1,0 +1,1306 @@
+ [
+  {
+  "id":1,
+  "key":"Master caution",
+  "karatMessage":"Flashes",
+  "section_id":2,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":2,
+  "key":"FIRE",
+  "karatMessage":"ON",
+  "section_id":2,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":3,
+  "key":"Middle MFD",
+  "karatMessage":"LH ENG FIRE (RH ENG, AAGB)",
+  "section_id":2,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":4,
+  "key":"FIRE EXTING LH (GBX, RH)",
+  "karatMessage":"ON",
+  "section_id":2,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":5,
+  "key":"VWS",
+  "karatMessage":"\u2018Left engine (Right engine, Gearbox) fire\u2019",
+  "section_id":2,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":6,
+  "key":"External",
+  "karatMessage":"Smoke or flame (seen in rear view mirrors during turn and reported from ground\/other aircraft)",
+  "section_id":3,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":7,
+  "key":"Cockpit",
+  "karatMessage":"Smoke",
+  "section_id":3,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":8,
+  "key":"Engines",
+  "karatMessage":"Shut down immediately",
+  "section_id":4,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":9,
+  "key":"Aircraft",
+  "karatMessage":"Take all necessary actions to stop",
+  "section_id":4,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":10,
+  "key":"Braking",
+  "karatMessage":"Carry out emergency braking",
+  "section_id":4,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":11,
+  "key":"FUEL SHUTOFF of engine on fire",
+  "karatMessage":"CLOSED",
+  "section_id":4,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":12,
+  "key":"FIRE EXTING LH (GBX, RH)",
+  "karatMessage":"Press",
+  "section_id":4,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":13,
+  "key":"Fire not extinguished in ~ 8 sec",
+  "karatMessage":"Press FIRE EXTING, LH (GBX, RH) again",
+  "section_id":4,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":14,
+  "key":"Aircraft",
+  "karatMessage":"Stop and leave it",
+  "section_id":4,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":15,
+  "key":"Engines",
+  "karatMessage":"Shut down",
+  "section_id":5,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":16,
+  "key":"Aircraft",
+  "karatMessage":"Take all necessary actions to stop",
+  "section_id":5,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":17,
+  "key":"Drag chute",
+  "karatMessage":"Deploy at speed less than 300 km/h",
+  "section_id":5,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":18,
+  "key":"Braking",
+  "karatMessage":"Carry out emergency braking",
+  "section_id":5,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":19,
+  "key":"FUEL SHUTOFF",
+  "karatMessage":"CLOSED",
+  "section_id":5,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":20,
+  "key":"FIRE EXTING LH (GBX, RH)",
+  "karatMessage":"Press",
+  "section_id":5,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":21,
+  "key":"Fire not extinguished in ~ 8 sec",
+  "karatMessage":"Press FIRE EXTING, LH (GBX, RH) again",
+  "section_id":5,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":22,
+  "key":"Fire not extinguished in ~ 8 sec",
+  "karatMessage":"Press FIRE EXTING, LH (GBX, RH) again",
+  "section_id":5,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":23,
+  "key":"Aircraft",
+  "karatMessage":"Stop and leave it",
+  "section_id":5,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":24,
+  "key":"If",
+  "karatMessage":"Danger of collision with obstacle",
+  "section_id":5,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":25,
+  "key":"Aircraft",
+  "karatMessage":"Turn away from the obstacle",
+  "section_id":5,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":26,
+  "key":"Canopy",
+  "karatMessage":"Jettison (if necessary)",
+  "section_id":5,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":27,
+  "key":"LG",
+  "karatMessage":"Retract",
+  "section_id":5,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":28,
+  "key":"Batteries",
+  "karatMessage":"OFF",
+  "section_id":5,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":29,
+  "key":"If",
+  "karatMessage":"In case of danger to life",
+  "section_id":5,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":30,
+  "key":"Aircraft",
+  "karatMessage":"Eject",
+  "section_id":5,
+  "title_id":2,
+  "category_id":3
+  },
+  {
+  "id":31,
+  "key":"Take-off",
+  "karatMessage":"Continue",
+  "section_id":6,
+  "title_id":2,
+  "category_id":3
+  } ,{
+  "id":32,
+  "key":"FIRE EXTING GBX",
+  "karatMessage":"Press",
+  "section_id":6,
+  "title_id":2,
+  "category_id":3
+  } ,{
+  "id":33,
+  "key":"Engine mode",
+  "karatMessage":"Do not change",
+  "section_id":6,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":34,
+  "key":"Required speed and altitude",
+  "karatMessage":"Set",
+  "section_id":6,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":35,
+  "key":"Direction for ejection",
+  "karatMessage":"Select",
+  "section_id":6,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":36,
+  "key":"Fire not extinguished in ~ 8 sec",
+  "karatMessage":"Press FIRE EXTING GBX again",
+  "section_id":6,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":37,
+  "key":"If",
+  "karatMessage":"Fire not extinguished",
+  "section_id":6,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":38,
+  "key":"Engines",
+  "karatMessage":"Shut down (if possible)",
+  "section_id":6,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":39,
+  "key":"Aircraft",
+  "karatMessage":"Eject",
+  "section_id":6,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":40,
+  "key":"Else if",
+  "karatMessage":"AAGB fire extinguished",
+  "section_id":6,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":41,
+  "key":"FIRE",
+  "karatMessage":"Goes OFF",
+  "section_id":6,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":42,
+  "key":"Middle MFD",
+  "karatMessage":"AAGB FIRE goes OFF",
+  "section_id":6,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":43,
+  "key":"Additional indications of fire",
+  "karatMessage":"No",
+  "section_id":6,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":44,
+  "key":"AB",
+  "karatMessage":"OFF",
+  "section_id":6,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":45,
+  "key":"Fuel",
+  "karatMessage":"Dump",
+  "section_id":6,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":46,
+  "key":"Landing",
+  "karatMessage":"Perform",
+  "section_id":6,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":47,
+  "key":"Take-off",
+  "karatMessage":"Continue",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":48,
+  "key":"FIRE EXTING LH (RH)",
+  "karatMessage":"Press",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":49,
+  "key":"Engine mode",
+  "karatMessage":"Do not change",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":50,
+  "key":"Required speed and altitude",
+  "karatMessage":"Set",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":51,
+  "key":"Direction for ejection",
+  "karatMessage":"Select",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":52,
+  "key":"AB",
+  "karatMessage":"OFF",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":53,
+  "key":"Engine on fire",
+  "karatMessage":"Shut down",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":54,
+  "key":"FUEL SHUTOFF of engine on fire",
+  "karatMessage":"CLOSED",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":55,
+  "key":"Fire not extinguished in ~ 8 sec",
+  "karatMessage":"Press FIRE EXTING LH (RH) again",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":56,
+  "key":"If",
+  "karatMessage":"Fire not extinguished",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":57,
+  "key":"Second engine",
+  "karatMessage":"Shut down (if possible)",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":58,
+  "key":"Aircraft",
+  "karatMessage":"Eject",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":59,
+  "key":"If",
+  "karatMessage":"Fire extinguished",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":60,
+  "key":"FIRE",
+  "karatMessage":"Goes OFF",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":61,
+  "key":"Middle MFD",
+  "karatMessage":"LH (RH) ENG FIRE goes OFF",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":62,
+  "key":"Additional indications of fire",
+  "karatMessage":"No",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":63,
+  "key":"Fuel",
+  "karatMessage":"Dump",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":64,
+  "key":"Landing",
+  "karatMessage":"Perform with single engine",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":65,
+  "key":"LG, flaps, slats, vortex flaps",
+  "karatMessage":"Perform emergency extension",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":66,
+  "key":"Note",
+  "karatMessage":"Emergency braking in case of RH engine shutdown",
+  "section_id":7,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":67,
+  "key":"AB",
+  "karatMessage":"OFF",
+  "section_id":8,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":68,
+  "key":"FIRE EXTING GBX",
+  "karatMessage":"Press",
+  "section_id":8,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":69,
+  "key":"Fire not extinguished in ~ 8 sec",
+  "karatMessage":"Press FIRE EXTING GBX again",
+  "section_id":8,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":70,
+  "key":"Aircraft",
+  "karatMessage":"Turn for safe ejection and aircraft falling",
+  "section_id":8,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":71,
+  "key":"If",
+  "karatMessage":"Fire not extinguished",
+  "section_id":8,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":72,
+  "key":"Engines",
+  "karatMessage":"Shut down (if possible)",
+  "section_id":8,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":73,
+  "key":"Ejection",
+  "karatMessage":"Perform",
+  "section_id":8,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":74,
+  "key":"If",
+  "karatMessage":"AAGB fire extinguished",
+  "section_id":8,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":75,
+  "key":"FIRE",
+  "karatMessage":"Goes OFF",
+  "section_id":8,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":76,
+  "key":"Middle MFD",
+  "karatMessage":"AAGB FIRE goes OFF",
+  "section_id":8,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":77,
+  "key":"Additional indications of fire",
+  "karatMessage":"No",
+  "section_id":8,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":78,
+  "key":"Fuel",
+  "karatMessage":"Dump (if necessary)",
+  "section_id":8,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":79,
+  "key":"Landing",
+  "karatMessage":"Perform immediately",
+  "section_id":8,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":80,
+  "key":"AB",
+  "karatMessage":"OFF",
+  "section_id":9,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":81,
+  "key":"TCL of engine on fire",
+  "karatMessage":"STOP",
+  "section_id":9,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":82,
+  "key":"FUEL SHUTOFF of engine on fire",
+  "karatMessage":"CLOSED",
+  "section_id":9,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":83,
+  "key":"FIRE EXTING LH (RH)",
+  "karatMessage":"Press",
+  "section_id":9,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":84,
+  "key":"Fire not extinguished in ~ 8 sec",
+  "karatMessage":"Press FIRE EXTING LH (RH) again",
+  "section_id":9,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":85,
+  "key":"Aircraft",
+  "karatMessage":"Turn for safe ejection and aircraft falling",
+  "section_id":9,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":86,
+  "key":"If",
+  "karatMessage":"Fire not extinguished",
+  "section_id":9,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":87,
+  "key":"Engines",
+  "karatMessage":"Shut down (if possible)",
+  "section_id":9,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":88,
+  "key":"Ejection",
+  "karatMessage":"Perform",
+  "section_id":9,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":89,
+  "key":"Else if",
+  "karatMessage":"Fire extinguished",
+  "section_id":9,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":90,
+  "key":"FIRE",
+  "karatMessage":"Goes OFF",
+  "section_id":9,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":91,
+  "key":"Middle MFD",
+  "karatMessage":"LH (RH) ENG FIRE goes OFF",
+  "section_id":9,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":92,
+  "key":"Additional indications of fire",
+  "karatMessage":"No",
+  "section_id":9,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":93,
+  "key":"Fuel",
+  "karatMessage":"Dump (if necessary)",
+  "section_id":9,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":94,
+  "key":"Landing",
+  "karatMessage":"Perform with single engine",
+  "section_id":9,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":95,
+  "key":"LG, flaps, slats, vortex flaps",
+  "karatMessage":"Perform emergency extension",
+  "section_id":9,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":96,
+  "key":"Note",
+  "karatMessage":"Emergency braking in case of RH engine shutdown",
+  "section_id":9,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":97,
+  "key":"",
+  "karatMessage":"End of procedure",
+  "section_id":9,
+  "title_id":2,
+  "category_id":3
+  },{
+  "id":98,
+  "key":"Engines",
+  "karatMessage":"Shut down",
+  "section_id":10,
+  "title_id":3,
+  "category_id":4
+  },{
+  "id":99,
+  "key":"Ejection handles",
+  "karatMessage":"Turn forward",
+  "section_id":10,
+  "title_id":3,
+  "category_id":4
+  },{
+  "id":100,
+  "key":"Locks",
+  "karatMessage":"Open",
+  "section_id":10,
+  "title_id":3,
+  "category_id":4
+  },{
+  "id":101,
+  "key":"Harness",
+  "karatMessage":"Unfasten",
+  "section_id":10,
+  "title_id":3,
+  "category_id":4
+  },{
+  "id":102,
+  "key":"Oxygen mask",
+  "karatMessage":"Take off (if possible)",
+  "section_id":10,
+  "title_id":3,
+  "category_id":4
+  },{
+  "id":103,
+  "key":"Snap hook of survival kit",
+  "karatMessage":"Disconnect",
+  "section_id":10,
+  "title_id":3,
+  "category_id":4
+  },{
+  "id":104,
+  "key":"Canopy",
+  "karatMessage":"Open",
+  "section_id":10,
+  "title_id":3,
+  "category_id":4
+  },{
+  "id":105,
+  "key":"If",
+  "karatMessage":"Canopy fails to open",
+  "section_id":10,
+  "title_id":3,
+  "category_id":4
+  },{
+  "id":106,
+  "key":"Instrument panel",
+  "karatMessage":"Lean over it",
+  "section_id":10,
+  "title_id":3,
+  "category_id":4
+  },{
+  "id":107,
+  "key":"Canopy",
+  "karatMessage":"Jettison",
+  "section_id":10,
+  "title_id":3,
+  "category_id":4
+  },{
+  "id":108,
+  "key":"Blocks of combined services connector",
+  "karatMessage":"Disconnect",
+  "section_id":10,
+  "title_id":3,
+  "category_id":4
+  },{
+  "id":109,
+  "key":"Aircraft",
+  "karatMessage":"Egress and go to a safe distance",
+  "section_id":10,
+  "title_id":3,
+  "category_id":4
+  },{
+  "id":110,
+  "key":"If",
+  "karatMessage":"Time allows to take survival kit",
+  "section_id":10,
+  "title_id":3,
+  "category_id":4
+  },{
+  "id":111,
+  "key":"Cockpit",
+  "karatMessage":"Turn to face the seat",
+  "section_id":10,
+  "title_id":3,
+  "category_id":4
+  },{
+  "id":112,
+  "key":"Orange belts on the rear cover of survival kit",
+  "karatMessage":"Take hold",
+  "section_id":10,
+  "title_id":3,
+  "category_id":4
+  },{
+  "id":113,
+  "key":"Harness restraint straps",
+  "karatMessage":"Pull abruptly upward to disconnect",
+  "section_id":10,
+  "title_id":3,
+  "category_id":4
+  },{
+  "id":114,
+  "key":"Survival kit",
+  "karatMessage":"Turn in relation to trunnions to vertical position. Quickly pull upwards to throw it out of the cockpit.",
+  "section_id":10,
+  "title_id":3,
+  "category_id":4
+  },{
+  "id":115,
+  "key":"Aircraft",
+  "karatMessage":"Egress with survival kit and go to safe distance",
+  "section_id":10,
+  "title_id":3,
+  "category_id":4
+  },{
+  "id":116,
+  "key":"WARNING",
+  "karatMessage":"Eject immediately in emergency cases.",
+  "section_id":11,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":117,
+  "key":"Decision on ejection",
+  "karatMessage":"Take",
+  "section_id":12,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":118,
+  "key":"IFF EMERG signal",
+  "karatMessage":"Enable",
+  "section_id":12,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":119,
+  "key":"Flight direction",
+  "karatMessage":"Towards friendly area or coastline",
+  "section_id":12,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":120,
+  "key":"Ejection area",
+  "karatMessage":"Report",
+  "section_id":12,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":121,
+  "key":"Altitude",
+  "karatMessage":"Climb to 6500-10000 ft (2000- 3000 m)/descend to 13000- 10000 ft (4000-3000 m)",
+  "section_id":12,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":122,
+  "key":"Speed",
+  "karatMessage":"Decelerate to 215-320 kt (400 - 600 k/h) at climbing/level flight",
+  "section_id":12,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":123,
+  "key":"Crash helmet visor",
+  "karatMessage":"Lower manually",
+  "section_id":12,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":124,
+  "key":"Legs",
+  "karatMessage":"Take them from the pedals and put them in front of the seat pan",
+  "section_id":12,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":125,
+  "key":"Ejection conditions",
+  "karatMessage":"Out of clouds (if possible)",
+  "section_id":12,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":126,
+  "key":"Ejection handles (with palms inward)",
+  "karatMessage":"Take and pull upwards until the seat starts moving",
+  "section_id":12,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":127,
+  "key":"Shoulders",
+  "karatMessage":"Press to the seat back",
+  "section_id":12,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":128,
+  "key":"Head",
+  "karatMessage":"Press to headrest",
+  "section_id":12,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":129,
+  "key":"Elbows",
+  "karatMessage":"Press to body",
+  "section_id":12,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":130,
+  "key":"If",
+  "karatMessage":"Canopy fails to jettison",
+  "section_id":12,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":131,
+  "key":"Ejection handles",
+  "karatMessage":"Lower Hold with LH hand without pulling",
+  "section_id":12,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":132,
+  "key":"Canopy",
+  "karatMessage":"Jettison",
+  "section_id":12,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":133,
+  "key":"Ejection handles",
+  "karatMessage":"Use for ejection",
+  "section_id":12,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":134,
+  "key":"Parachute canopy",
+  "karatMessage":"Check proper deployment",
+  "section_id":13,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":135,
+  "key":"Crash helmet visor",
+  "karatMessage":"Raise",
+  "section_id":13,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":136,
+  "key":"Oxygen mask",
+  "karatMessage":"Take off at altitude below 13000 ft (4000 m)",
+  "section_id":13,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":137,
+  "key":"Survival kit",
+  "karatMessage":"Check proper deployment",
+  "section_id":13,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":138,
+  "key":"Radio beacon",
+  "karatMessage":"Check proper deployment",
+  "section_id":13,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":139,
+  "key":"Raft",
+  "karatMessage":"Check proper inflation",
+  "section_id":13,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":140,
+  "key":"Life belt",
+  "karatMessage":"Check proper inflation",
+  "section_id":13,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":141,
+  "key":"Drift direction",
+  "karatMessage":"Evaluate",
+  "section_id":14,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":142,
+  "key":"Expected touchdown location",
+  "karatMessage":"Evaluate",
+  "section_id":14,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":143,
+  "key":"Altitude of 500-350 ft (150-100 m)",
+  "karatMessage":"Turn down the wind",
+  "section_id":14,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":144,
+  "key":"Position for landing",
+  "karatMessage":"Take",
+  "section_id":14,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":145,
+  "key":"Landing",
+  "karatMessage":"With both feet put flat on the  ground, with bending the knees slightly",
+  "section_id":14,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":146,
+  "key":"OSK-2 locks",
+  "karatMessage":"Open",
+  "section_id":14,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":147,
+  "key":"If",
+  "karatMessage":"Aircraft leaving at low altitude",
+  "section_id":14,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":148,
+  "key":"Feet",
+  "karatMessage":"Prepare for touch down",
+  "section_id":14,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":149,
+  "key":"Direction",
+  "karatMessage":"Turn down the wind",
+  "section_id":14,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":150,
+  "key":"If",
+  "karatMessage":"If parachute drags the pilot after touch down",
+  "section_id":14,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":151,
+  "key":"Parachute canopy",
+  "karatMessage":"Crumple",
+  "section_id":14,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":152,
+  "key":"One of OSK-2 locks",
+  "karatMessage":"Open with free hand",
+  "section_id":14,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":153,
+  "key":"Parachute",
+  "karatMessage":"Check proper deployment",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":154,
+  "key":"Landing direction",
+  "karatMessage":"Determine",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":155,
+  "key":"Circular strap of suspension system",
+  "karatMessage":"Tuck under the hips",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":156,
+  "key":"Life belt floats",
+  "karatMessage":"Inflate by gas filling plugs",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":157,
+  "key":"Air release valve on high-altitude and sea-survival kit",
+  "karatMessage":"Close",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":158,
+  "key":"WARNING",
+  "karatMessage":"If no automatic extension of raft, extend it at altitude below 3300 ft (1000 m). For that pull the plug located near RH hip; at that, raft hangs up on the line and the inflation bottle is actuated. If raft not filled, quickly pull the survival kit line to actuate the gas filling system.",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":159,
+  "key":"Oxygen mask hose",
+  "karatMessage":"Disconnect",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":160,
+  "key":"Hose of pressure suit bladder",
+  "karatMessage":"Disconnect",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":161,
+  "key":"Ventilation hoses of suit and anti-g suit",
+  "karatMessage":"Disconnect from combined services connector",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":162,
+  "key":"Mask bladder compensator connector",
+  "karatMessage":"Disconnect",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":163,
+  "key":"Communication and power supply bundle of crash helmet",
+  "karatMessage":"Disconnect",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":164,
+  "key":"Intermediate strap of mask corrugated hose",
+  "karatMessage":"Disconnect",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":165,
+  "key":"Mask",
+  "karatMessage":"Throw away",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":166,
+  "key":"Safety devices",
+  "karatMessage":"Remove from locks at altitude of 30-20 ft (10-7 m)",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":167,
+  "key":"OSK-2 locks triggers",
+  "karatMessage":"Press and turn forward",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":168,
+  "key":"Position",
+  "karatMessage":"With face down the wind (with the back facing the wave edge)",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":169,
+  "key":"Floats of life belt or high-altitude and sea-survival kit",
+  "karatMessage":"Reinflate (if necessary)",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":170,
+  "key":"Orange end of main line",
+  "karatMessage":"Tear apart",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":171,
+  "key":"Raft and survival kit",
+  "karatMessage":"Use",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":172,
+  "key":"Central lock",
+  "karatMessage":"Open",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":173,
+  "key":"Lock on main strap",
+  "karatMessage":"Open",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":174,
+  "key":"Leg restraining straps",
+  "karatMessage":"Release from semirings",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":175,
+  "key":"RH shoulder strap",
+  "karatMessage":"Put behind back",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":176,
+  "key":"LH float of life belt",
+  "karatMessage":"Release some air Pull it through with hand under shoulder strap",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":177,
+  "key":"Harness system",
+  "karatMessage":"Throw off from shoulders",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":178,
+  "key":"LH float of life belt",
+  "karatMessage":"Reinflate",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":179,
+  "key":"Raft",
+  "karatMessage":"Pull Get onto it from aft",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":180,
+  "key":"Survival kit",
+  "karatMessage":"Pull and draw",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  },{
+  "id":181,
+  "key":"Signals about position",
+  "karatMessage":"Transmit",
+  "section_id":15,
+  "title_id":4,
+  "category_id":4
+  }
+ 
+
+
+
+
+
+  ]
