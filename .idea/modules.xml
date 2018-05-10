@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Tyara.iml" filepath="$PROJECT_DIR$/Tyara.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tyara.iml" filepath="$PROJECT_DIR$/tyara.iml" />
     </modules>
   </component>
 </project>

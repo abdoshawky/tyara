@@ -3,6 +3,8 @@ package com.anwarboss.tyara.activities
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import com.anwarboss.tyara.R
 import com.anwarboss.tyara.adapters.PlanesAdapter
 import com.anwarboss.tyara.models.PlaneModel
@@ -15,6 +17,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         supportActionBar!!.title = "Categories"
+
+        logoIV.setOnClickListener {
+            startActivity(Intent(this@MainActivity, AboutActivity::class.java))
+        }
 
         val planes: MutableList<PlaneModel> = ArrayList()
         planes.add(PlaneModel("Normal", R.drawable.green_plane))
@@ -37,7 +43,9 @@ class MainActivity : AppCompatActivity() {
                     intent.putExtra("category", category.toString())
                     startActivity(intent)
                 } else if (category == "Voice Warning") {
-
+                    val intent = Intent(this@MainActivity, CategoriesActivity::class.java)
+                    intent.putExtra("category", category.toString())
+                    startActivity(intent)
                 }
 
 //                val intent = Intent(this@MainActivity, CategoriesActivity::class.java)
@@ -46,4 +54,22 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        val inflater = menuInflater
+        inflater.inflate(R.menu.menu_main, menu)
+
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.action_logout -> {
+                startActivity(Intent(this@MainActivity, LoginActivity::class.java))
+            }
+        }
+
+        return true
+    }
+
 }

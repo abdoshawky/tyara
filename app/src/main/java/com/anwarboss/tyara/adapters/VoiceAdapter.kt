@@ -35,7 +35,7 @@ class VoiceAdapter(private val context: Context, private val voicesList: ArrayLi
         if (voice.isEmpty()) {
             holder.mediaLL.visibility = View.INVISIBLE
         } else {
-            val afd = context.assets.openFd("voices/$voice.mp3")
+            val afd = context.assets.openFd("voices/$voice.wav")
             val player = MediaPlayer()
             player.setDataSource(afd.fileDescriptor, afd.startOffset, afd.length)
             player.prepare()
@@ -45,7 +45,7 @@ class VoiceAdapter(private val context: Context, private val voicesList: ArrayLi
             }
 
             holder.stopIV.setOnClickListener {
-                player.pause()
+                player.stop()
             }
 
         }
