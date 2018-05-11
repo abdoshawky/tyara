@@ -1,6 +1,7 @@
 package com.anwarboss.tyara.adapters
 
 import android.content.Context
+import android.content.Intent
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
@@ -12,6 +13,7 @@ import com.anwarboss.tyara.R
 import com.anwarboss.tyara.models.DataModel
 import com.anwarboss.tyara.utils.Arrays
 import android.media.MediaPlayer
+import com.anwarboss.tyara.activities.InstructionsActivity
 
 
 class VoiceAdapter(private val context: Context, private val voicesList: ArrayList<DataModel>) : RecyclerView.Adapter<VoiceAdapter.VoiceViewHolder>() {
@@ -24,21 +26,31 @@ class VoiceAdapter(private val context: Context, private val voicesList: ArrayLi
     override fun onBindViewHolder(holder: VoiceViewHolder, position: Int) {
         val data = voicesList[position]
 
+        val voice = Arrays.voiceArray[position]
+        val afd = context.assets.openFd("voices/$voice.wav")
+        val player = MediaPlayer()
+        player.setDataSource(afd.fileDescriptor, afd.startOffset, afd.length)
+        player.prepare()
+
 
         holder.itemView.setOnClickListener {
+            player.start()
 
+            val intent = Intent(context, InstructionsActivity::class.java)
+            intent.putExtra("titleName", data.titleName)
+            intent.putExtra("titleID", data.titleID)
+            intent.putExtra("categoryID", data.categoryID)
+            context.startActivity(intent)
         }
 
         holder.voiceTV.text = data.karatMessage
 
-        val voice = Arrays.voiceArray[position]
+
+
         if (voice.isEmpty()) {
             holder.mediaLL.visibility = View.INVISIBLE
         } else {
-            val afd = context.assets.openFd("voices/$voice.wav")
-            val player = MediaPlayer()
-            player.setDataSource(afd.fileDescriptor, afd.startOffset, afd.length)
-            player.prepare()
+
 
             holder.playIV.setOnClickListener {
                 player.start()
@@ -47,7 +59,6 @@ class VoiceAdapter(private val context: Context, private val voicesList: ArrayLi
             holder.stopIV.setOnClickListener {
                 player.stop()
             }
-
         }
     }
 
