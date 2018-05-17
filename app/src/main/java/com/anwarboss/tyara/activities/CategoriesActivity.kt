@@ -15,6 +15,8 @@ import java.io.InputStream
 
 class CategoriesActivity : AppCompatActivity() {
 
+    private var normal = true
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_problems)
@@ -27,12 +29,13 @@ class CategoriesActivity : AppCompatActivity() {
 
         problemsRV.layoutManager = LinearLayoutManager(this@CategoriesActivity)
 
+        normal = category == "Normal"
 
         inputStream = when (category) {
-            "Up Normal" -> assets.open("json/categoriesUpnormal.json")
-            "Normal" -> assets.open("normal.json")
-            "Voice Warning" -> assets.open("json/data.json")
-            else -> assets.open("normal.json")
+            "Up Normal" -> assets.open("json/up normal/categoriesUpnormal.json")
+            "Normal" -> assets.open("json/normal/categories.json")
+            "Voice Warning" -> assets.open("json/up normal/data.json")
+            else -> assets.open("json/up normal/data.json")
         }
 
         val size = inputStream.available()
@@ -60,8 +63,8 @@ class CategoriesActivity : AppCompatActivity() {
 
         for (i in 0 until jsonArray.length()) {
             val categoryObject = jsonArray.getJSONObject(i)
-            val key = categoryObject.getString("key")
-            if (key == "VWS") {
+            val key = categoryObject.getString("key").toLowerCase()
+            if (key.contains("VWS".toLowerCase())) {
                 val dataID = categoryObject.getInt("id")
                 val dataKey = categoryObject.getString("key")
                 val karatMessage = categoryObject.getString("karatMessage")
@@ -75,7 +78,7 @@ class CategoriesActivity : AppCompatActivity() {
                 dataModel.titleID = titleID
                 dataModel.categoryID = categoryID
 
-                val titleInputStream = assets.open("json/titles.json")
+                val titleInputStream = assets.open("json/up normal/titles.json")
 
                 val titleSize = titleInputStream.available()
 
@@ -121,7 +124,7 @@ class CategoriesActivity : AppCompatActivity() {
             problems.add(newCategory)
         }
 
-        problemsRV.adapter = CategoriesAdapter(this@CategoriesActivity, problems)
+        problemsRV.adapter = CategoriesAdapter(this@CategoriesActivity, problems, normal)
     }
 
 }

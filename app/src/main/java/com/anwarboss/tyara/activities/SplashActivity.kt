@@ -12,17 +12,13 @@ class SplashActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        setContentView(R.layout.activity_splash)
-//
-//        planeIV.setBackgroundResource(R.drawable.plane_animation)
-//
-//        (planeIV.background as AnimationDrawable).start()
+        setContentView(R.layout.activity_splash)
 
+        supportActionBar!!.hide()
 
-
-        startActivity(Intent(this@SplashActivity, LoginActivity::class.java))
-        finish()
-//        Handler().postDelayed({
-//        }, 1000)
+        Handler().postDelayed({
+            startActivity(Intent(this@SplashActivity, LoginActivity::class.java))
+            finish()
+        }, 1000)
     }
 }

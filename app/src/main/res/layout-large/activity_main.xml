@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+    <ss.com.bannerslider.Slider
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        app:slider_interval="4000"
+        app:slider_loopSlides="true"
+        android:layout_height="300dp" />
+
+    <GridView
+        android:id="@+id/planesGV"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="8dp"
+        android:numColumns="2"
+        android:padding="10dp"
+        android:verticalSpacing="8dp" />
+
+</LinearLayout>

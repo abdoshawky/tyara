@@ -14,8 +14,6 @@ import com.anwarboss.tyara.models.SectionModel
 class InstructionsAdapter(private val itemsList: ArrayList<ListItem>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
-        println(viewType)
-
         return when (viewType) {
             ListItem.TYPE_ITEM -> {
                 val v = LayoutInflater.from(parent.context).inflate(R.layout.item_data, parent, false)

@@ -1,0 +1,492 @@
+ [
+  {
+  "id": 2,
+  "name": "ENGINES AND AAGB FIRE",
+  "category_id": 3
+  },
+  {
+  "id": 3,
+  "name": "GROUND EGRESS",
+  "category_id": 4
+  },
+  {
+  "id": 4,
+  "name": "CONTROLLED EJECTION",
+  "category_id": 4
+  },
+  {
+  "id": 5,
+  "name": "AUTONOMOUS CANOPY JETTISON",
+  "category_id": 4
+  },
+  {
+  "id": 6,
+  "name": "SINGLE ENGINE FAILURE",
+  "category_id": 5
+  },
+  {
+  "id": 7,
+  "name": "POWER PLANT SURGE",
+  "category_id": 5
+  },
+  {
+  "id": 8,
+  "name": "FAILURE OF BARK-42 ANTI-SURGE PROTECTION CHANNEL",
+  "category_id": 5
+  },
+  {
+  "id": 9,
+  "name": "SUDDEN FLAMEOUT OF BOTH ENGINES IN FLIGHT",
+  "category_id": 5
+  },
+  {
+  "id": 10,
+  "name": "ENGINES AIR START",
+  "category_id": 5
+  },
+  {
+  "id": 11,
+  "name": "FAILURE OF ENGINE OIL SYSTEM",
+  "category_id": 5
+  },
+  {
+  "id": 12,
+  "name": "FAILURE OF ELECTRONICS OF ENGINE AUTOMATIC CONTROL SYSTEM",
+  "category_id": 5
+  },
+  {
+  "id": 13,
+  "name": "FAILURE OF BARK-42 LIMITATION AND ADJUSTMENT PROGRAMS.FUEL FLOW, NOZZLE THROAT AREA",
+  "category_id": 5
+  },
+  {
+  "id": 14,
+  "name": "AFTERBURNING FAILURE",
+  "category_id": 5
+  },
+  {
+  "id": 15,
+  "name": "FUEL BOOST PUMP FAILURE",
+  "category_id": 5
+  },
+  {
+  "id": 16,
+  "name": "INCREASE OF ENGINE RPM, FUEL PRESSURE",
+  "category_id": 5
+  },
+  {
+  "id": 17,
+  "name": "INCREASE OF DIFFERENTIAL PRESSURE AT ENGINE FUEL FILTER",
+  "category_id": 5
+  },
+  {
+  "id": 18,
+  "name": "INCREASE OF ENGINE VIBRATIONS",
+  "category_id": 5
+  },
+  {
+  "id": 19,
+  "name": "ENGINE OVERHEAT",
+  "category_id": 5
+  },
+  {
+  "id": 20,
+  "name": "AAGB FAILURE",
+  "category_id": 5
+  },
+  {
+  "id": 21,
+  "name": "FAILURE OF AIR INTAKES GOVERNOR",
+  "category_id": 5
+  },
+  {
+  "id": 22,
+  "name": "LH (RH) AIR INTAKE FAILURE",
+  "category_id": 5
+  },
+  {
+  "id": 23,
+  "name": "BLOWN MLG TIRE",
+  "category_id": 6
+  },
+  {
+  "id": 24,
+  "name": "FAILURE OF ONE MLG TO EXTEND",
+  "category_id": 6
+  },
+  {
+  "id": 25,
+  "name": "FAILURE OF NLG TO EXTEND",
+  "category_id": 6
+  },
+  {
+  "id": 26,
+  "name": "LG EMERGENCY EXTENSION",
+  "category_id": 6
+  },
+  {
+  "id": 27,
+  "name": "DC GENERATOR FAILURE",
+  "category_id": 7
+  },
+  {
+  "id": 28,
+  "name": "BOTH DC GENERATORS FAILURE",
+  "category_id": 7
+  },
+  {
+  "id": 29,
+  "name": "FAILURE OF TWO DC GENERATORS AND RECTIFIER",
+  "category_id": 7
+  },
+  {
+  "id": 32,
+  "name": "AC INTEGRATED GENERATOR FAILURE",
+  "category_id": 8
+  },
+  {
+  "id": 33,
+  "name": "BOTH AC INTEGRATED GENERATORS FAILURE",
+  "category_id": 8
+  },
+  {
+  "id": 34,
+  "name": "BOOSTER HYDRAULIC SYSTEM FAILURE",
+  "category_id": 9
+  },
+  {
+  "id": 35,
+  "name": "MAIN HYDRAULIC SYSTEM FAILURE",
+  "category_id": 9
+  },
+  {
+  "id": 36,
+  "name": "BOTH HYDRAULIC SYSTEMS FAILURE",
+  "category_id": 9
+  },
+  {
+  "id": 40,
+  "name": "MAIN PNEUMATIC SYSTEM FAILURE",
+  "category_id": 10
+  },
+  {
+  "id": 41,
+  "name": "EMERGENCY PNEUMATIC SYSTEM FAILURE",
+  "category_id": 10
+  },
+  {
+  "id": 42,
+  "name": "BOTH PNEUMATIC SYSTEMS FAILURE",
+  "category_id": 10
+  },
+  {
+  "id": 43,
+  "name": "COCKPIT DEPRESSURIZATION AT ALTITUDES ABOVE 39000 FT (12000 M)",
+  "category_id": 11
+  },
+  {
+  "id": 44,
+  "name": "FAILURE OF SYSTEM OF AUTOMATIC CONTROL SYSTEM OF COCKPIT TEMPERATURE",
+  "category_id": 11
+  },
+  {
+  "id": 45,
+  "name": "CONDENSATION OR ICING OF THE COCKPIT CANOPY GLASS",
+  "category_id": 11
+  },
+  {
+  "id": 46,
+  "name": "SMOKE IN THE COCKPIT",
+  "category_id": 11
+  },
+  {
+  "id": 47,
+  "name": "FOG IN THE COCKPIT",
+  "category_id": 11
+  },
+  {
+  "id": 48,
+  "name": "OXYGEN EQUIPMENT FAILURE",
+  "category_id": 11
+  },
+  {
+  "id": 49,
+  "name": "AIR DATA SYSTEM FAILURE",
+  "category_id": 12
+  },
+  {
+  "id": 50,
+  "name": "INS1 FAILURE",
+  "category_id": 12
+  },
+  {
+  "id": 51,
+  "name": "NS2 FAILURE",
+  "category_id": 12
+  },
+  {
+  "id": 52,
+  "name": "BOTH INS FAILURE",
+  "category_id": 12
+  },
+  {
+  "id": 53,
+  "name": "INS ACCURACY DEGRADATION",
+  "category_id": 12
+  },
+  {
+  "id": 54,
+  "name": "\u2018CYCLING\u2019 OF INS ALGORITHMS",
+  "category_id": 12
+  },
+  {
+  "id": 55,
+  "name": "VIM-95 FAILURE AT LANDING AT AIRFIELD EQUIPPED WITH ILS",
+  "category_id": 12
+  },
+  {
+  "id": 56,
+  "name": "PITOT-STATIC TUBE FAILURE",
+  "category_id": 12
+  },
+  {
+  "id": 57,
+  "name": "MFD FAILURE",
+  "category_id": 12
+  },
+  {
+  "id": 58,
+  "name": "REFUELING POD FIRE",
+  "category_id": 13
+  },
+  {
+  "id": 59,
+  "name": "REFUELING POD FAILURE",
+  "category_id": 13
+  },
+  {
+  "id": 60,
+  "name": "ABNORMAL IN-FLIGHT REFUELING MODE",
+  "category_id": 13
+  },
+  {
+  "id": 61,
+  "name": "FAILURE OF ONE SUB-CHANNEL OF FBW REDUNDANCY",
+  "category_id": 14
+  },
+  {
+  "id": 62,
+  "name": "FAILURE OF TWO SUB-CHANNELS OF FBW REDUNDANCY",
+  "category_id": 14
+  },
+  {
+  "id": 63,
+  "name": "TOTAL FAILURE OF REDUNDANCY IN 2 AOA SENSORS",
+  "category_id": 14
+  },
+  {
+  "id": 64,
+  "name": "FAILURE OF CONTROL STICK AND (OR) PEDALS MOVEMENT SENSORS",
+  "category_id": 14
+  },
+  {
+  "id": 65,
+  "name": "FAILURE OF FBW COMPUTERS",
+  "category_id": 14
+  },
+  {
+  "id": 66,
+  "name": "FAILURE OF SERVO DRIVE OF ONE HORIZONTAL STABILIZER",
+  "category_id": 14
+  },
+  {
+  "id": 67,
+  "name": "FAILURE OF SERVO DRIVE OF ONE OF THE RUDDERS",
+  "category_id": 14
+  },
+  {
+  "id": 68,
+  "name": "FAILURE OF SERVO DRIVE OF ONE AILERON",
+  "category_id": 14
+  },
+  {
+  "id": 69,
+  "name": "FAILURE OF MAIN MODE IN ONE OF FBW PRESSURE CONTROL CHANNELS",
+  "category_id": 14
+  },
+  {
+  "id": 70,
+  "name": "FAILURE OF FBW PRESSURE SENSORS",
+  "category_id": 14
+  },
+  {
+  "id": 71,
+  "name": "FAILURE OF AUTOPILOT",
+  "category_id": 14
+  },
+  {
+  "id": 72,
+  "name": "AUTOTHROTTLE FAILURE",
+  "category_id": 14
+  },
+  {
+  "id": 73,
+  "name": "FAILURE OF SIDESLIP ANGLE SENSORS",
+  "category_id": 14
+  },
+  {
+  "id": 74,
+  "name": "FAILURE OF FRONT SIDESLIP ANGLE SENSOR",
+  "category_id": 14
+  },
+  {
+  "id": 75,
+  "name": "FAILURE OF REAR SIDESLIP ANGLE SENSOR",
+  "category_id": 14
+  },
+  {
+  "id": 76,
+  "name": "FAILURE OF ONE AOA SENSOR",
+  "category_id": 14
+  },
+  {
+  "id": 77,
+  "name": "FAILURE OF ONE AOA SENSOR REDUNDANCY",
+  "category_id": 14
+  },
+  {
+  "id": 78,
+  "name": "FAILURE OF 2 CHANNELS OF QUAD-REDUNDANT FBW COMPUTERS",
+  "category_id": 14
+  },
+  {
+  "id": 79,
+  "name": "FAILURE OF 2 SUB-CHANNELS OF AUTOPILOT COMPUTERS",
+  "category_id": 14
+  },
+  {
+  "id": 80,
+  "name": "FAILURE OF FBW COMMUNICATION WITH AIMING AND NAVIGATION SYSTEM",
+  "category_id": 14
+  },
+  {
+  "id": 81,
+  "name": "FAILURE OF TWO REDUNDANT CHANNELS OF THE AIRCRAFT CONTROL SURFACES DRIVES",
+  "category_id": 14
+  },
+  {
+  "id": 82,
+  "name": "FAILURE OF ONE ENGINE AUTO THROTTLE",
+  "category_id": 14
+  },
+  {
+  "id": 83,
+  "name": "FAILURE OF SENSORS OF ONE OF THE TRIMMERS POSITIONS",
+  "category_id": 14
+  },
+  {
+  "id": 84,
+  "name": "FAILURE OF TWO ENGINES AUTO THROTTLE",
+  "category_id": 14
+  },
+  {
+  "id": 85,
+  "name": "FAILURE OF ONE OR TWO REDUNDANT CHANNELS OF AIRBRAKE POSITION SENSOR",
+  "category_id": 14
+  },
+  {
+  "id": 86,
+  "name": "FAILURE OF AIRBRAKE POSITION SENSOR",
+  "category_id": 14
+  },
+  {
+  "id": 87,
+  "name": "FAILURE OF TRIM ACTUATORS (DURING PRE-FLIGHT TEST)",
+  "category_id": 14
+  },
+  {
+  "id": 88,
+  "name": "FAILURE OF POSITION SENSORS OF LH OR RH SLATS SECTION",
+  "category_id": 14
+  },
+  {
+  "id": 89,
+  "name": "FAILURE OF LH AND RH SLATS SECTIONS CONTROL",
+  "category_id": 14
+  },
+  {
+  "id": 90,
+  "name": "FAILURE OF SENSOR OF ONE OF THE SLATS POSITION",
+  "category_id": 14
+  },
+  {
+  "id": 91,
+  "name": "AUTOPILOT MODES FAILURE FAILURE OF FLIGHT DIRECTOR CONTROL",
+  "category_id": 14
+  },
+  {
+  "id": 93,
+  "name": "FAILURE OF LSS",
+  "category_id": 14
+  },
+  {
+  "id": 94,
+  "name": "EMERGENCY LANDING OUTSIDE AIRFIELD WITH OPERATING ENGINES",
+  "category_id": 15
+  },
+  {
+  "id": 95,
+  "name": "RADIO FAILURE",
+  "category_id": 16
+  },
+  {
+  "id": 96,
+  "name": "COM1 FAILURE",
+  "category_id": 16
+  },
+  {
+  "id": 97,
+  "name": "COM2 FAILURE",
+  "category_id": 16
+  },
+  {
+  "id": 98,
+  "name": "TWO RADIO FAILURE",
+  "category_id": 16
+  },
+  {
+  "id": 99,
+  "name": "HF RADIO FAILURE",
+  "category_id": 16
+  },
+  {
+  "id": 100,
+  "name": "RCP FAILURE",
+  "category_id": 16
+  },
+  {
+  "id": 101,
+  "name": "NO DATA EXCHANGE VIA MUX BUS BETWEEN BKS-29E AND MC",
+  "category_id": 16
+  },
+  {
+  "id": 102,
+  "name": "FAILURE OF SDC OF DIGITAL INTEGRATED COMMUNICATION MODULE",
+  "category_id": 16
+  },
+  {
+  "id": 103,
+  "name": "FAILURE OF INTERNAL COMMUNICATION SYSTEM",
+  "category_id": 16
+  },
+  {
+  "id": 104,
+  "name": "VWS FAILURE",
+  "category_id": 16
+  },
+  {
+  "id": 105,
+  "name": "SPATIAL DISORIENTATION",
+  "category_id": 17
+  }
+  ]

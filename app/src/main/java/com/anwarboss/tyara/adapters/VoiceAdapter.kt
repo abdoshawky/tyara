@@ -18,6 +18,8 @@ import com.anwarboss.tyara.activities.InstructionsActivity
 
 class VoiceAdapter(private val context: Context, private val voicesList: ArrayList<DataModel>) : RecyclerView.Adapter<VoiceAdapter.VoiceViewHolder>() {
 
+    private val player = MediaPlayer()
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VoiceViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item_voice, parent, false)
         return VoiceViewHolder(itemView)
@@ -26,38 +28,60 @@ class VoiceAdapter(private val context: Context, private val voicesList: ArrayLi
     override fun onBindViewHolder(holder: VoiceViewHolder, position: Int) {
         val data = voicesList[position]
 
-        val voice = Arrays.voiceArray[position]
-        val afd = context.assets.openFd("voices/$voice.wav")
-        val player = MediaPlayer()
-        player.setDataSource(afd.fileDescriptor, afd.startOffset, afd.length)
-        player.prepare()
-
-
-        holder.itemView.setOnClickListener {
-            player.start()
-
-            val intent = Intent(context, InstructionsActivity::class.java)
-            intent.putExtra("titleName", data.titleName)
-            intent.putExtra("titleID", data.titleID)
-            intent.putExtra("categoryID", data.categoryID)
-            context.startActivity(intent)
-        }
+        holder.setIsRecyclable(false)
 
         holder.voiceTV.text = data.karatMessage
 
+        val voice = Arrays.voiceArray[position]
 
 
         if (voice.isEmpty()) {
             holder.mediaLL.visibility = View.INVISIBLE
+            holder.itemView.setOnClickListener {
+                val intent = Intent(context, InstructionsActivity::class.java)
+                intent.putExtra("titleName", data.titleName)
+                intent.putExtra("titleID", data.titleID)
+                intent.putExtra("categoryID", data.categoryID)
+                context.startActivity(intent)
+            }
         } else {
+            holder.mediaLL.visibility = View.VISIBLE
 
+            holder.itemView.setOnClickListener {
+
+                val intent = Intent(context, InstructionsActivity::class.java)
+                intent.putExtra("titleName", data.titleName)
+                intent.putExtra("titleID", data.titleID)
+                intent.putExtra("categoryID", data.categoryID)
+                context.startActivity(intent)
+                val afd = if(voice == "refueling_pod_failure_switch_on_disconnection_lights"){
+                    context.assets.openFd("voices/$voice.mp3")
+                }else{
+                    context.assets.openFd("voices/$voice.wav")
+                }
+                player.reset()
+                player.setDataSource(afd.fileDescriptor, afd.startOffset, afd.length)
+                player.prepare()
+                player.start()
+            }
 
             holder.playIV.setOnClickListener {
+                val afd = if(voice == "refueling_pod_failure_switch_on_disconnection_lights"){
+                    context.assets.openFd("voices/$voice.mp3")
+                }else{
+                    context.assets.openFd("voices/$voice.wav")
+                }
+
+                player.reset()
+                player.setDataSource(afd.fileDescriptor, afd.startOffset, afd.length)
+                player.prepare()
                 player.start()
             }
 
             holder.stopIV.setOnClickListener {
-                player.stop()
+                if (player.isPlaying) {
+                    player.stop()
+                }
             }
         }
     }

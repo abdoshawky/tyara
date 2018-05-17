@@ -2,6 +2,7 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
+    android:layoutDirection="ltr"
     android:layout_height="wrap_content">
 
     <LinearLayout
@@ -19,8 +20,8 @@
 
         <ImageView
             android:id="@+id/play"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
             android:layout_margin="2dp"
             android:layout_marginEnd="4dp"
             android:layout_marginRight="4dp"
@@ -28,8 +29,8 @@
 
         <ImageView
             android:id="@+id/stop"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
             android:layout_marginLeft="4dp"
             android:layout_marginStart="4dp"
             android:src="@drawable/stop" />
@@ -47,7 +48,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:textColor="@android:color/black"
-        android:textSize="16sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

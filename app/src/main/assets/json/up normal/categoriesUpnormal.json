@@ -1,0 +1,92 @@
+ [
+  {
+  "id": 3,
+  "name": "FIRE ON THE AIRCRAFT",
+  "created_at": "2018-04-27 12:36:23",
+  "updated_at": "2018-04-27 12:36:23"
+  },
+  {
+  "id": 4,
+  "name": "CONTROLLED EJECTION AND GROUND EGRESS",
+  "created_at": "2018-04-27 12:36:23",
+  "updated_at": "2018-04-27 12:36:23"
+  },
+  {
+  "id": 5,
+  "name": "POWER PLANT FAILURES",
+  "created_at": "2018-04-27 12:36:23",
+  "updated_at": "2018-04-27 12:36:23"
+  },
+  {
+  "id": 6,
+  "name": "LG FAILURES",
+  "created_at": "2018-04-27 12:36:23",
+  "updated_at": "2018-04-27 12:36:23"
+  },
+  {
+  "id": 7,
+  "name": "FAILURE OF DC POWER SUPPLY",
+  "created_at": "2018-04-27 12:36:23",
+  "updated_at": "2018-04-27 12:36:23"
+  },
+  {
+  "id": 8,
+  "name": "FAILURE OF AC POWER SUPPLY",
+  "created_at": "2018-04-27 12:36:23",
+  "updated_at": "2018-04-27 12:36:23"
+  },
+  {
+  "id": 9,
+  "name": "HYDRAULIC SYSTEM FAILURES",
+  "created_at": "2018-04-27 12:36:23",
+  "updated_at": "2018-04-27 12:36:23"
+  },
+  {
+  "id": 10,
+  "name": "PNEUMATIC SYSTEM FAILURES",
+  "created_at": "2018-04-27 12:36:23",
+  "updated_at": "2018-04-27 12:36:23"
+  },
+  {
+  "id": 11,
+  "name": "LIFE SUPPORT SYSTEM FAILURES",
+  "created_at": "2018-04-27 12:36:23",
+  "updated_at": "2018-04-27 12:36:23"
+  },
+  {
+  "id": 12,
+  "name": "NAVIGATION SYSTEMS FAILURE",
+  "created_at": "2018-04-27 12:36:23",
+  "updated_at": "2018-04-27 12:36:23"
+  },
+  {
+  "id": 13,
+  "name": "REFUELING POD FAILURES",
+  "created_at": "2018-04-27 12:36:23",
+  "updated_at": "2018-04-27 12:36:23"
+  },
+  {
+  "id": 14,
+  "name": "FBW FAILURES",
+  "created_at": "2018-04-27 12:36:23",
+  "updated_at": "2018-04-27 12:36:23"
+  },
+  {
+  "id": 15,
+  "name": "EMERGENCY LANDING OUTSIDE AIRFIELD",
+  "created_at": "2018-04-27 12:36:23",
+  "updated_at": "2018-04-27 12:36:23"
+  },
+  {
+  "id": 16,
+  "name": "RADIO COMMUNICATION AND RADIO AIDS FAILURES",
+  "created_at": "2018-04-27 12:36:23",
+  "updated_at": "2018-04-27 12:36:23"
+  },
+  {
+  "id": 17,
+  "name": "MISCELLANEOUS",
+  "created_at": "2018-04-27 12:36:23",
+  "updated_at": "2018-04-27 12:36:23"
+  }
+  ]

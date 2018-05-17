@@ -15,6 +15,9 @@ class SearchActivity : AppCompatActivity() {
     var searchQuery = ""
     private lateinit var titlesArray: JSONArray
 
+    private val titles = ArrayList<TitleModel>()
+    private var titlesAdapter: TitlesAdapter? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_search)
@@ -33,22 +36,21 @@ class SearchActivity : AppCompatActivity() {
                 when (checkedId) {
                     R.id.sectionsBTN -> searchSections()
                     R.id.voiceBTN -> searchVoice()
-                    R.id.karatBTN -> searchKarat()
+                    R.id.karatBTN -> karat()
                 }
                 return true
             }
         })
 
         segmented.setOnCheckedChangeListener { _, checkedId ->
-
             when (checkedId) {
                 R.id.sectionsBTN -> searchSections()
                 R.id.voiceBTN -> searchVoice()
-                R.id.karatBTN -> searchKarat()
+                R.id.karatBTN -> karat()
             }
         }
 
-        val inputStream = assets.open("json/titles.json")
+        val inputStream = assets.open("json/up normal/titles.json")
 
         val size = inputStream.available()
 
@@ -65,32 +67,40 @@ class SearchActivity : AppCompatActivity() {
     }
 
     private fun searchSections() {
-        val titles = ArrayList<TitleModel>()
+        titles.clear()
 
-        for (i in 0 until titlesArray.length()) {
-            val titleObject = titlesArray.getJSONObject(i)
+        if (searchQuery.trim().isEmpty()) {
+            if (titlesAdapter != null) {
+                titlesAdapter!!.notifyDataSetChanged()
+            }        } else {
+            for (i in 0 until titlesArray.length()) {
+                val titleObject = titlesArray.getJSONObject(i)
 
-            val id = titleObject.getInt("id")
-            val name = titleObject.getString("name")
-            val categoryID = titleObject.getInt("category_id")
+                val id = titleObject.getInt("id")
+                val name = titleObject.getString("name")
+                val categoryID = titleObject.getInt("category_id")
 
-            if (name.toLowerCase().contains(searchQuery)) {
-                val title = TitleModel()
-                title.id = id
-                title.name = name
-                title.categoryID = categoryID
+                if (name.toLowerCase().contains(searchQuery)) {
+                    val title = TitleModel()
+                    title.id = id
+                    title.name = name
+                    title.categoryID = categoryID
 
 
-                titles.add(title)
+                    titles.add(title)
+                }
+            }
+            if (titlesAdapter == null) {
+                titlesAdapter = TitlesAdapter(this@SearchActivity, titles, false)
+                searchRV.adapter = titlesAdapter
+            } else {
+                titlesAdapter!!.notifyDataSetChanged()
             }
         }
-
-        searchRV.adapter = TitlesAdapter(this@SearchActivity, titles)
-
     }
 
     private fun searchVoice() {
-        val inputStream = assets.open("json/data.json")
+        val inputStream = assets.open("json/up normal/data.json")
 
         val size = inputStream.available()
 
@@ -102,70 +112,54 @@ class SearchActivity : AppCompatActivity() {
 
         val dataArray = JSONArray(jsonString)
 
-        val titles = ArrayList<TitleModel>()
+        titles.clear()
 
-        for (i in 0 until dataArray.length()) {
-            val data = dataArray.getJSONObject(i)
+        if (searchQuery.trim().isEmpty()) {
+            if (titlesAdapter != null) {
+                titlesAdapter!!.notifyDataSetChanged()
+            }
+        } else {
 
-            val key = data.getString("key")
-            val karatMessage = data.getString("karatMessage")
-            val titleID = data.getInt("title_id")
+            for (i in 0 until dataArray.length()) {
+                val data = dataArray.getJSONObject(i)
 
-            if (karatMessage.toLowerCase().contains(searchQuery) && key == "VWS") {
-                for (j in 0 until titlesArray.length()) {
-                    val titleObject = titlesArray.getJSONObject(j)
+                val key = data.getString("key").toLowerCase()
+                val karatMessage = data.getString("karatMessage")
+                val titleID = data.getInt("title_id")
 
-                    val id = titleObject.getInt("id")
-                    val categoryID = titleObject.getInt("category_id")
+                if (karatMessage.toLowerCase().contains(searchQuery.toLowerCase()) && key.contains("vws")) {
+                    for (j in 0 until titlesArray.length()) {
+                        val titleObject = titlesArray.getJSONObject(j)
 
-                    if (id == titleID) {
-                        val title = TitleModel()
-                        title.id = id
-                        title.name = karatMessage
-                        title.categoryID = categoryID
+                        val id = titleObject.getInt("id")
+                        val categoryID = titleObject.getInt("category_id")
+
+                        if (id == titleID) {
+                            val title = TitleModel()
+                            title.id = id
+                            title.name = karatMessage
+                            title.categoryID = categoryID
 
 
-                        titles.add(title)
+                            titles.add(title)
+                        }
+
                     }
-
                 }
             }
-        }
 
-        searchRV.adapter = TitlesAdapter(this@SearchActivity, titles)
-
-
-    }
-
-    private fun searchKarat() {
-        val inputStream2 = assets.open("json/sections.json")
-
-        val size2 = inputStream2.available()
-
-        val buffer2 = ByteArray(size2)
-        inputStream2.read(buffer2)
-        inputStream2.close()
-
-        val jsonString2 = String(buffer2, charset("UTF-8"))
-
-        val sectionsArray = JSONArray(jsonString2)
-
-
-        for (i in 0 until sectionsArray.length()) {
-            val sectionObject = sectionsArray.getJSONObject(i)
-
-            val sectionName = sectionObject.getString("name")
-            if (sectionName == "INDICATIONS") {
-                karat(sectionObject.getInt("id"))
-                break
+            if (titlesAdapter == null) {
+                titlesAdapter = TitlesAdapter(this@SearchActivity, titles, false)
+                searchRV.adapter = titlesAdapter
+            } else {
+                titlesAdapter!!.notifyDataSetChanged()
             }
         }
 
-
     }
 
-    private fun karat(sectionID: Int) {
-        val inputStream = assets.open("json/data.json")
+    private fun karat() {
+        val inputStream = assets.open("json/up normal/data.json")
 
         val size = inputStream.available()
 
@@ -177,40 +171,50 @@ class SearchActivity : AppCompatActivity() {
 
         val dataArray = JSONArray(jsonString)
 
-        val titles = ArrayList<TitleModel>()
+        titles.clear()
 
-        for (i in 0 until dataArray.length()) {
-            val data = dataArray.getJSONObject(i)
+        if (searchQuery.trim().isEmpty()) {
+            println("doone")
+            if (titlesAdapter != null) {
+                titlesAdapter!!.notifyDataSetChanged()
+            }
+        } else {
 
-            val key = data.getString("key")
-            val karatMessage = data.getString("karatMessage")
-            val titleID = data.getInt("title_id")
-            val section = data.getInt("section_id")
+            for (i in 0 until dataArray.length()) {
+                val data = dataArray.getJSONObject(i)
 
-            if (karatMessage.toLowerCase().contains(searchQuery) && key == "Middle MFD" && section == sectionID) {
-                for (j in 0 until titlesArray.length()) {
-                    val titleObject = titlesArray.getJSONObject(j)
+                val key = data.getString("key").toLowerCase()
+                val karatMessage = data.getString("karatMessage")
+                val titleID = data.getInt("title_id")
+//            val section = data.getInt("section_id")
 
-                    val id = titleObject.getInt("id")
-                    val categoryID = titleObject.getInt("category_id")
+                if (karatMessage.toLowerCase().contains(searchQuery) && key.contains("mfd")) {
+                    for (j in 0 until titlesArray.length()) {
+                        val titleObject = titlesArray.getJSONObject(j)
 
-                    if (id == titleID) {
-                        val title = TitleModel()
-                        title.id = id
-                        title.name = karatMessage
-                        title.categoryID = categoryID
+                        val id = titleObject.getInt("id")
+                        val categoryID = titleObject.getInt("category_id")
+
+                        if (id == titleID) {
+                            val title = TitleModel()
+                            title.id = id
+                            title.name = karatMessage
+                            title.categoryID = categoryID
 
 
-                        titles.add(title)
+                            titles.add(title)
+                        }
+
                     }
-
                 }
             }
+
+            if (titlesAdapter == null) {
+                titlesAdapter = TitlesAdapter(this@SearchActivity, titles, false)
+                searchRV.adapter = titlesAdapter
+            } else {
+                titlesAdapter!!.notifyDataSetChanged()
+            }
         }
-
-        searchRV.adapter = TitlesAdapter(this@SearchActivity, titles)
-
-
     }
-
 }

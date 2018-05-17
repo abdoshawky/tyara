@@ -2,7 +2,8 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr">
 
     <View
         android:id="@+id/view2"
@@ -12,15 +13,15 @@
 
     <TextView
         android:id="@+id/key_text"
-        android:layout_width="100dp"
+        android:layout_width="110dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:textColor="@android:color/black"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="@android:color/black"
         app:layout_constraintBottom_toTopOf="@+id/view3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2" />
@@ -29,6 +30,7 @@
         android:id="@+id/vertical_view"
         android:layout_width="2dp"
         android:layout_height="0dp"
+        android:layout_marginStart="8dp"
         android:background="@android:color/darker_gray"
         android:minHeight="50dp"
         app:layout_constraintBottom_toTopOf="@+id/view3"
@@ -42,16 +44,16 @@
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
-        android:textSize="22sp"
-        android:textStyle="bold"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:gravity="start"
         android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/view3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/vertical_view"
-        app:layout_constraintTop_toBottomOf="@id/view2"/>
+        app:layout_constraintTop_toBottomOf="@id/view2" />
 
     <View
         android:id="@+id/view3"

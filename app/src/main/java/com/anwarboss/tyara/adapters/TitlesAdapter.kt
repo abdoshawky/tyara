@@ -12,7 +12,7 @@ import com.anwarboss.tyara.R
 import com.anwarboss.tyara.activities.InstructionsActivity
 import com.anwarboss.tyara.models.TitleModel
 
-class TitlesAdapter(private val context: Context, private val problemsListList: List<TitleModel>) : RecyclerView.Adapter<TitlesAdapter.TitlesViewHolder>() {
+class TitlesAdapter(private val context: Context, private val problemsListList: List<TitleModel>, private val normal: Boolean) : RecyclerView.Adapter<TitlesAdapter.TitlesViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TitlesViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item_problem, parent, false)
@@ -29,6 +29,7 @@ class TitlesAdapter(private val context: Context, private val problemsListList: 
             intent.putExtra("titleName", problem.name)
             intent.putExtra("titleID", problem.id)
             intent.putExtra("categoryID", problem.categoryID)
+            intent.putExtra("normal", normal)
             context.startActivity(intent)
 
         }

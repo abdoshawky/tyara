@@ -22,10 +22,15 @@ class InstructionsActivity : AppCompatActivity() {
         val title = bundle.getString("titleName")
         val titleID = bundle.getInt("titleID")
         val categoryID = bundle.getInt("categoryID")
+        val normal = bundle.getBoolean("normal")
 
         supportActionBar!!.title = title
 
-        val inputStream = assets.open("json/sections.json")
+        val inputStream = if (normal) {
+            assets.open("json/normal/sections.json")
+        } else {
+            assets.open("json/up normal/sections.json")
+        }
 
         val size = inputStream.available()
 
@@ -37,7 +42,11 @@ class InstructionsActivity : AppCompatActivity() {
 
         val jsonArray = JSONArray(jsonString)
 
-        val inputStream2 = assets.open("json/data.json")
+        val inputStream2 = if (normal) {
+            assets.open("json/normal/data.json")
+        } else {
+            assets.open("json/up normal/data.json")
+        }
 
         val size2 = inputStream2.available()
 

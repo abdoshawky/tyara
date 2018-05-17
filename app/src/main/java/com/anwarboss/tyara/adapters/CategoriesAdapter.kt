@@ -11,7 +11,7 @@ import com.anwarboss.tyara.R
 import com.anwarboss.tyara.activities.TitlesActivity
 import com.anwarboss.tyara.models.CategoryModel
 
-class CategoriesAdapter(private val context: Context, private val categoriesList: ArrayList<CategoryModel>) : RecyclerView.Adapter<CategoriesAdapter.CategoriesViewHolder>() {
+class CategoriesAdapter(private val context: Context, private val categoriesList: ArrayList<CategoryModel>, private val normal: Boolean) : RecyclerView.Adapter<CategoriesAdapter.CategoriesViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CategoriesViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item_problem, parent, false)
@@ -21,12 +21,15 @@ class CategoriesAdapter(private val context: Context, private val categoriesList
     override fun onBindViewHolder(holder: CategoriesViewHolder, position: Int) {
         val category = categoriesList[position]
 
+        println(normal)
+
         holder.problemTV.text = category.name
 
         holder.itemView.setOnClickListener {
             val intent = Intent(context, TitlesActivity::class.java)
             intent.putExtra("id", category.id)
             intent.putExtra("name", category.name)
+            intent.putExtra("normal", normal)
             context.startActivity(intent)
         }
 

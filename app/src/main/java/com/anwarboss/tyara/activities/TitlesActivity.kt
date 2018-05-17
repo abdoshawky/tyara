@@ -8,6 +8,7 @@ import com.anwarboss.tyara.adapters.TitlesAdapter
 import com.anwarboss.tyara.models.TitleModel
 import kotlinx.android.synthetic.main.activity_problems.*
 import org.json.JSONArray
+import java.io.InputStream
 
 class TitlesActivity : AppCompatActivity() {
 
@@ -19,10 +20,19 @@ class TitlesActivity : AppCompatActivity() {
 
         val mainCategoryID = bundle.getInt("id")
         val titleName = bundle.getString("name")
+        val normal = bundle.getBoolean("normal")
 
         supportActionBar!!.title = titleName
 
-        val inputStream = assets.open("json/titles.json")
+//        var inputStream: InputStream? = null
+
+        val inputStream = if (normal) {
+            assets.open("json/normal/titles.json")
+        } else {
+            assets.open("json/up normal/titles.json")
+
+        }
+//        val inputStream = assets.open("json/up normal/titles.json")
 
         val size = inputStream.available()
 
@@ -55,7 +65,7 @@ class TitlesActivity : AppCompatActivity() {
         }
 
         problemsRV.layoutManager = LinearLayoutManager(this@TitlesActivity)
-        problemsRV.adapter = TitlesAdapter(this@TitlesActivity, titles)
+        problemsRV.adapter = TitlesAdapter(this@TitlesActivity, titles, normal)
 
     }
 }
