@@ -15,7 +15,6 @@ class AboutActivity : AppCompatActivity() {
 
         val image = intent.extras.getInt("image")
         val index = intent.extras.getInt("index")
-//        imageView.setImageResource(image)
 
         println(index)
         Picasso.get().load(image).resize(1000,1000).into(imageView)
