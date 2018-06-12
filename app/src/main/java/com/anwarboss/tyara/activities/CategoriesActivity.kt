@@ -17,6 +17,7 @@ class CategoriesActivity : AppCompatActivity() {
 
     private var normal = true
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_problems)
