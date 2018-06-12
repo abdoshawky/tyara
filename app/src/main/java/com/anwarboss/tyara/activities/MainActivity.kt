@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
 
         val planes: MutableList<PlaneModel> = ArrayList()
         planes.add(PlaneModel("Normal", R.drawable.green_plane))
-        planes.add(PlaneModel("Up Normal", R.drawable.red_plane))
+        planes.add(PlaneModel("Abnormal", R.drawable.red_plane))
         planes.add(PlaneModel("Voice Warning", R.drawable.orange_plane))
         planes.add(PlaneModel("Search", R.drawable.yellow_plane))
 

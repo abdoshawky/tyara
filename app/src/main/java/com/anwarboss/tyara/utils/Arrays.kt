@@ -102,11 +102,11 @@ object Arrays {
             , ""//97
     )
 
-    val photosArray = arrayOf("Pioneers Russia Nov 2016 \n Egypt MAY 2017 \n Hossam Moustafa \n Saleh Moussa \n Khaled Sakr \n Yasser Zaki \n Yasser Hamdy \n Medhat ElSakhawy \n Salah ABO Raya \n Shady Gomaa \n Mohamed ABO Youssif",
-            "Pioneers Russia Nov 2016 \n Egypt MAY 2017 \n Hossam Moustafa \n Saleh Moussa \n Khaled Sakr \n Yasser Zaki \n Yasser Hamdy \n Medhat ElSakhawy \n Salah ABO Raya \n Shady Gomaa \n Mohamed ABO Youssif",
-            "Pioneers Russia Nov 2016 \n Egypt MAY 2017 \n Hossam Moustafa \n Saleh Moussa \n Khaled Sakr \n Yasser Zaki \n Yasser Hamdy \n Medhat ElSakhawy \n Salah ABO Raya \n Shady Gomaa \n Mohamed ABO Youssif",
-            "Pioneers First Air Refuel Egypt",
-            "Pioneers First Escort Mission President \n EL - SISI Feb 2018",
+    val photosArray = arrayOf("Pioneers Russia Nov 2016 \n Egypt MAY 2017 \n Hossam Moustafa \n (Air Wing Commander) \n Saleh Moussa (Squadron Commander)\n Khaled Sakr (Pilot)\n Yasser Zaki (Pilot)\n Yasser Hamdy (Pilot)\n Medhat ElSakhawy (Pilot)\n Salah ABO Raya (Pilot)\n Shady Gomaa (Pilot)\n Mohamed ABO Youssif (Pilot)",
+            "Pioneers Russia Nov 2016 \n Egypt MAY 2017 \n Hossam Moustafa \n (Air Wing Commander) \n Saleh Moussa (Squadron Commander)\n Khaled Sakr (Pilot)\n Yasser Zaki (Pilot)\n Yasser Hamdy (Pilot)\n Medhat ElSakhawy (Pilot)\n Salah ABO Raya (Pilot)\n Shady Gomaa (Pilot)\n Mohamed ABO Youssif (Pilot)",
+            "Pioneers Russia Nov 2016 \n Egypt MAY 2017 \n Hossam Moustafa \n (Air Wing Commander) \n Saleh Moussa (Squadron Commander)\n Khaled Sakr (Pilot)\n Yasser Zaki (Pilot)\n Yasser Hamdy (Pilot)\n Medhat ElSakhawy (Pilot)\n Salah ABO Raya (Pilot)\n Shady Gomaa (Pilot)\n Mohamed ABO Youssif (Pilot)",
+            "For the first time in the Egyptian air fource \n Pioneers First Air Refuel Egypt"
+            ,"Pioneers First Escort Mission President \n EL - SISI Feb 2018",
             "Pioneers First Escort Mission President \n EL - SISI Feb 2018",
             "Pioneers First Escort Mission President \n EL - SISI Feb 2018",
             "Pioneers First Escort Mission President \n EL - SISI Feb 2018",

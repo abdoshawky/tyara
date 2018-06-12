@@ -32,7 +32,7 @@ class CategoriesActivity : AppCompatActivity() {
         normal = category == "Normal"
 
         inputStream = when (category) {
-            "Up Normal" -> assets.open("json/up normal/categoriesUpnormal.json")
+            "Abnormal" -> assets.open("json/up normal/categoriesUpnormal.json")
             "Normal" -> assets.open("json/normal/categories.json")
             "Voice Warning" -> assets.open("json/up normal/data.json")
             else -> assets.open("json/up normal/data.json")
@@ -116,7 +116,7 @@ class CategoriesActivity : AppCompatActivity() {
 
             val id = categoryObject.getInt("id")
             val name = categoryObject.getString("name")
-
+//
             val newCategory = CategoryModel()
             newCategory.id = id
             newCategory.name = name
